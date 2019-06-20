@@ -16,6 +16,7 @@
 		1D3E4A2E22BB332F005738DB /* ScrollableWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E4A2D22BB332F005738DB /* ScrollableWeekView.swift */; };
 		1D3E4A3022BB339A005738DB /* WeekDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E4A2F22BB339A005738DB /* WeekDateModel.swift */; };
 		1D3E4A3222BB33DD005738DB /* WeekStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E4A3122BB33DD005738DB /* WeekStore.swift */; };
+		1D3E4A3422BB45EA005738DB /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E4A3322BB45EA005738DB /* EventModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1D3E4A2D22BB332F005738DB /* ScrollableWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableWeekView.swift; sourceTree = "<group>"; };
 		1D3E4A2F22BB339A005738DB /* WeekDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDateModel.swift; sourceTree = "<group>"; };
 		1D3E4A3122BB33DD005738DB /* WeekStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStore.swift; sourceTree = "<group>"; };
+		1D3E4A3322BB45EA005738DB /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				1D3E4A2F22BB339A005738DB /* WeekDateModel.swift */,
+				1D3E4A3322BB45EA005738DB /* EventModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				1D3E4A2E22BB332F005738DB /* ScrollableWeekView.swift in Sources */,
 				1D3E4A1822BB30D9005738DB /* SceneDelegate.swift in Sources */,
 				1D3E4A3222BB33DD005738DB /* WeekStore.swift in Sources */,
+				1D3E4A3422BB45EA005738DB /* EventModel.swift in Sources */,
 				1D3E4A1A22BB30D9005738DB /* MainView.swift in Sources */,
 				1D3E4A3022BB339A005738DB /* WeekDateModel.swift in Sources */,
 			);
