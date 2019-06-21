@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import MapKit
 
 class EventModel: Hashable {
     
@@ -16,37 +17,40 @@ class EventModel: Hashable {
     var startTime: Double
     var endTime: Double?
     var backgroundImage: String?
-    var location: Any
-    var userAttending: [Any]?
+    var userAttending: [UserModel]?
+    var organizer: [UserModel]?
     var cost: Int?
     var skillLevel: SkillLevel?
     var gameType: GameType
     var description: String?
-    var organizer: [Any]?
+    var longitude: Double
+    var latitude: Double
     
     init(title: String,
          eventType: EventType,
          startTime: Double,
          endTime: Double?,
-         location: Any,
-         userAttending: [Any]?,
+         userAttending: [UserModel]?,
          cost: Int?,
          skillLevel: SkillLevel?,
          gameType: GameType,
          description: String?,
-         organizer: [Any]?) {
+         organizer: [UserModel]?,
+         longitude: Double,
+         latitude: Double) {
         
         self.title = title
         self.eventType = eventType
         self.startTime = startTime
         self.endTime = endTime
-        self.location = location
         self.userAttending = userAttending
         self.cost = cost
         self.skillLevel = skillLevel
         self.gameType = gameType
         self.description = description
         self.organizer = organizer
+        self.latitude = latitude
+        self.longitude = longitude
     }
     
     static func == (lhs: EventModel, rhs: EventModel) -> Bool {
