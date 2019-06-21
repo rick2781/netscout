@@ -14,13 +14,13 @@ class UserModel: Hashable {
     var displayName: String
     var email: String
     var phoneNumber: String
-    var profilePic: String
+    var profilePic: String?
     
     init(id: String,
          displayName: String,
          email: String,
          phoneNumber: String,
-         profilePic: String) {
+         profilePic: String?) {
         
         self.id = id
         self.displayName = displayName

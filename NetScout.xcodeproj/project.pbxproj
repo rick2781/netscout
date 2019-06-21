@@ -17,6 +17,8 @@
 		1D3E4A3022BB339A005738DB /* WeekDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E4A2F22BB339A005738DB /* WeekDateModel.swift */; };
 		1D3E4A3222BB33DD005738DB /* WeekStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E4A3122BB33DD005738DB /* WeekStore.swift */; };
 		1D3E4A3422BB45EA005738DB /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E4A3322BB45EA005738DB /* EventModel.swift */; };
+		1D7D064A22BD76950037558D /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D064922BD76950037558D /* EventStore.swift */; };
+		1D7D064C22BD7D6B0037558D /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D064B22BD7D6B0037558D /* EventListView.swift */; };
 		1DECA46822BC74A90010D7A8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DECA46722BC74A90010D7A8 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		1D3E4A2F22BB339A005738DB /* WeekDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDateModel.swift; sourceTree = "<group>"; };
 		1D3E4A3122BB33DD005738DB /* WeekStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStore.swift; sourceTree = "<group>"; };
 		1D3E4A3322BB45EA005738DB /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		1D7D064922BD76950037558D /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		1D7D064B22BD7D6B0037558D /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		1DECA46722BC74A90010D7A8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				1D3E4A3122BB33DD005738DB /* WeekStore.swift */,
+				1D7D064922BD76950037558D /* EventStore.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			children = (
 				1D3E4A1922BB30D9005738DB /* MainView.swift */,
 				1D3E4A2D22BB332F005738DB /* ScrollableWeekView.swift */,
+				1D7D064B22BD7D6B0037558D /* EventListView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -195,8 +201,10 @@
 			files = (
 				1D3E4A1622BB30D9005738DB /* AppDelegate.swift in Sources */,
 				1D3E4A2E22BB332F005738DB /* ScrollableWeekView.swift in Sources */,
+				1D7D064A22BD76950037558D /* EventStore.swift in Sources */,
 				1DECA46822BC74A90010D7A8 /* UserModel.swift in Sources */,
 				1D3E4A1822BB30D9005738DB /* SceneDelegate.swift in Sources */,
+				1D7D064C22BD7D6B0037558D /* EventListView.swift in Sources */,
 				1D3E4A3222BB33DD005738DB /* WeekStore.swift in Sources */,
 				1D3E4A3422BB45EA005738DB /* EventModel.swift in Sources */,
 				1D3E4A1A22BB30D9005738DB /* MainView.swift in Sources */,

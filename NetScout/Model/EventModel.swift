@@ -20,7 +20,7 @@ class EventModel: Hashable {
     var userAttending: [UserModel]?
     var organizer: [UserModel]?
     var cost: Int?
-    var skillLevel: SkillLevel?
+    var skillLevel: [SkillLevel]?
     var gameType: GameType
     var description: String?
     var longitude: Double
@@ -32,7 +32,7 @@ class EventModel: Hashable {
          endTime: Double?,
          userAttending: [UserModel]?,
          cost: Int?,
-         skillLevel: SkillLevel?,
+         skillLevel: [SkillLevel]?,
          gameType: GameType,
          description: String?,
          organizer: [UserModel]?,
