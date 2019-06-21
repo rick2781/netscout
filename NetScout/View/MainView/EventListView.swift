@@ -22,12 +22,10 @@ struct EventListView: View {
                     
                     VStack {
                         
-                        HStack {
-                            
-                        }
+                        
                         Text(event.title)
                         
-                        }.frame(height: 200).background(Color.white).cornerRadius(12).padding()
+                        }.frame(height: 175).background(Color.white).cornerRadius(12).padding()
                 }
                 }.frame(width: UIScreen.main.bounds.width).background(Color.gray)
             
