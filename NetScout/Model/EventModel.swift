@@ -15,6 +15,7 @@ class EventModel: Hashable {
     var eventType: EventType
     var startTime: Double
     var endTime: Double?
+    var backgroundImage: String?
     var location: Any
     var userAttending: [Any]?
     var cost: Int?
