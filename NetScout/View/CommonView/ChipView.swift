@@ -17,10 +17,11 @@ struct ChipView: View {
         
         VStack {
             Text(label)
+                .fontWeight(.regular)
                 .padding(.horizontal, 20)
                 .padding(.vertical, 4)
-                .font(.subheadline)
-            }.background(color).cornerRadius(100)
+                .font(.caption)
+            }.background(color).cornerRadius(15)
     }
 }
 

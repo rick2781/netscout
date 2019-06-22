@@ -8,6 +8,8 @@
 
 import Foundation
 import MapKit
+import CoreLocation
+import Contacts
 
 class EventModel: Hashable {
     
@@ -61,6 +63,41 @@ class EventModel: Hashable {
         hasher.combine(id)
         hasher.combine(title)
         hasher.combine(cost)
+    }
+    
+    func getMonthDayFormattedStartTime() -> String {
+        
+        let date = Date(timeIntervalSince1970: (startTime / 1000.0))
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MMM dd"
+        
+        return dateFormatter.string(from: date)
+    }
+    
+    func getHourMinuteFormattedStartTime() -> String {
+        
+        let date = Date(timeIntervalSince1970: (startTime / 1000.0))
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH:mm"
+        
+        return dateFormatter.string(from: date)
+    }
+    
+    func getLocationFormatted() -> String? {
+        
+        var result: String?
+        
+        let geocoder = CLGeocoder()
+        let locationCoordinate = CLLocation(latitude: self.latitude, longitude: self.longitude)
+        
+        geocoder.reverseGeocodeLocation(locationCoordinate) { (placemarks, error) in
+            
+            if let placemark = placemarks?[0], error != nil {
+                result = placemark.areasOfInterest?[0] ?? placemark.name
+            }
+        }
+        
+        return result
     }
 }
 
