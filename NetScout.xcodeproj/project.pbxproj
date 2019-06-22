@@ -20,6 +20,7 @@
 		1D7D064A22BD76950037558D /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D064922BD76950037558D /* EventStore.swift */; };
 		1D7D064C22BD7D6B0037558D /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D064B22BD7D6B0037558D /* EventListView.swift */; };
 		1D7D064F22BDA1030037558D /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D064E22BDA1030037558D /* ChipView.swift */; };
+		1D7D065322BEEA560037558D /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D065222BEEA560037558D /* UserProfileView.swift */; };
 		1DECA46822BC74A90010D7A8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DECA46722BC74A90010D7A8 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		1D7D064922BD76950037558D /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
 		1D7D064B22BD7D6B0037558D /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		1D7D064E22BDA1030037558D /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
+		1D7D065222BEEA560037558D /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		1DECA46722BC74A90010D7A8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				1D7D064E22BDA1030037558D /* ChipView.swift */,
+				1D7D065222BEEA560037558D /* UserProfileView.swift */,
 			);
 			path = CommonView;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				1D3E4A1822BB30D9005738DB /* SceneDelegate.swift in Sources */,
 				1D7D064C22BD7D6B0037558D /* EventListView.swift in Sources */,
 				1D3E4A3222BB33DD005738DB /* WeekStore.swift in Sources */,
+				1D7D065322BEEA560037558D /* UserProfileView.swift in Sources */,
 				1D3E4A3422BB45EA005738DB /* EventModel.swift in Sources */,
 				1D3E4A1A22BB30D9005738DB /* MainView.swift in Sources */,
 				1D3E4A3022BB339A005738DB /* WeekDateModel.swift in Sources */,

@@ -59,13 +59,15 @@ struct EventListView: View {
                                 HStack {
                                     Image(systemName: "location")
                                     
-                                    Text(event.getLocationFormatted())
+                                    //TODO - Implement this functionality with dynamic data
+                                    Text("Dive Volleyball")
                                         .fontWeight(.light)
                                         .font(.footnote)
                                     
                                     Spacer()
                                 }
                             }.padding(.leading, 4)
+                            
                             
                             
                             Spacer()
