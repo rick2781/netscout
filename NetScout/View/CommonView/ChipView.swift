@@ -20,7 +20,7 @@ struct ChipView: View {
                 .padding(.horizontal, 20)
                 .padding(.vertical, 4)
                 .font(.subheadline)
-            }.background(color).cornerRadius(20)
+            }.background(color).cornerRadius(100)
     }
 }
 

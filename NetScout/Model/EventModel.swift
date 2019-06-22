@@ -13,7 +13,6 @@ class EventModel: Hashable {
     
     var id = UUID()
     var title: String
-    var eventType: EventType
     var startTime: Double
     var endTime: Double?
     var backgroundImage: String?
@@ -22,6 +21,7 @@ class EventModel: Hashable {
     var cost: Int?
     var skillLevel: [SkillLevel]?
     var gameType: GameType
+    var eventType: EventType
     var description: String?
     var longitude: Double
     var latitude: Double
@@ -65,10 +65,10 @@ class EventModel: Hashable {
 }
 
 enum EventType: String {
-    case tournament
-    case league
-    case dropIn
-    case casual
+    case tournament = "Tournament"
+    case league = "League"
+    case dropIn = "Drop-in"
+    case casual = "Casual"
 }
 
 enum SkillLevel {
@@ -79,8 +79,8 @@ enum SkillLevel {
     case black
 }
 
-enum GameType {
-    case grass
-    case sand
-    case indoor
+enum GameType: String {
+    case grass = "Grass"
+    case sand = "Sand"
+    case indoor = "Indoor"
 }

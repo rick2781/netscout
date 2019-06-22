@@ -22,6 +22,10 @@ struct EventListView: View {
                     
                     VStack {
                         
+                        HStack {
+                            ChipView(color: .yellow, label: event.eventType.rawValue)
+                            ChipView(color: .green, label: event.gameType.rawValue)
+                        }
                         
                         Text(event.title)
                         
