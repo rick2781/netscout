@@ -10,11 +10,11 @@ import SwiftUI
 
 struct UserProfileView : View {
     
-    var image
+    var userProfileList: [UserModel]
     
     var body: some View {
         
-        Image()
+        ForEach()
     }
 }
 
