@@ -27,6 +27,7 @@
 		1D7D066222BEF1830037558D /* ImageInMemoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D065E22BEF1820037558D /* ImageInMemoryStore.swift */; };
 		1D7D066422BEF1A30037558D /* CacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D066322BEF1A30037558D /* CacheHelper.swift */; };
 		1D7D066622BEF1AA0037558D /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D066522BEF1AA0037558D /* URLImage.swift */; };
+		1D7D066822BF5B740037558D /* SkillLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D066722BF5B740037558D /* SkillLevelView.swift */; };
 		1DECA46822BC74A90010D7A8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DECA46722BC74A90010D7A8 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		1D7D065E22BEF1820037558D /* ImageInMemoryStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageInMemoryStore.swift; path = "../../../../../Downloads/url-image-master/Sources/URLImage/ImageStore/ImageInMemoryStore.swift"; sourceTree = "<group>"; };
 		1D7D066322BEF1A30037558D /* CacheHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheHelper.swift; sourceTree = "<group>"; };
 		1D7D066522BEF1AA0037558D /* URLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		1D7D066722BF5B740037558D /* SkillLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLevelView.swift; sourceTree = "<group>"; };
 		1DECA46722BC74A90010D7A8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +154,7 @@
 				1D7D066522BEF1AA0037558D /* URLImage.swift */,
 				1D7D064E22BDA1030037558D /* ChipView.swift */,
 				1D7D065222BEEA560037558D /* UserProfileView.swift */,
+				1D7D066722BF5B740037558D /* SkillLevelView.swift */,
 			);
 			path = CommonView;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				1DECA46822BC74A90010D7A8 /* UserModel.swift in Sources */,
 				1D3E4A1822BB30D9005738DB /* SceneDelegate.swift in Sources */,
 				1D7D066222BEF1830037558D /* ImageInMemoryStore.swift in Sources */,
+				1D7D066822BF5B740037558D /* SkillLevelView.swift in Sources */,
 				1D7D064C22BD7D6B0037558D /* EventListView.swift in Sources */,
 				1D3E4A3222BB33DD005738DB /* WeekStore.swift in Sources */,
 				1D7D065322BEEA560037558D /* UserProfileView.swift in Sources */,

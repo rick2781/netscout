@@ -20,11 +20,12 @@ struct UserProfileView : View {
                 
                 // Wait until this bug gets fixed - Ambiguous reference to member
 //                if userProfileList.firstIndex(of: user) != 4 {
-                    
+                
+                // TODO - Check to see if profilePic is nil if so use place holder
                     URLImage(URL(string: user.profilePic!)!)
                         .resizable()
-                        .frame(width: 30, height: 30)
-                        .aspectRatio(CGSize(width: 30, height: 30), contentMode: .fit)
+                        .frame(width: 25, height: 25)
+                        .aspectRatio(CGSize(width: 25, height: 25), contentMode: .fit)
                         .clipShape(Circle())
                         .overlay(
                             Circle().stroke(Color.white, lineWidth: 2))

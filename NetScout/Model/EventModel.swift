@@ -18,9 +18,9 @@ class EventModel: Hashable {
     var startTime: Double
     var endTime: Double?
     var backgroundImage: String?
-    var userAttending: [UserModel]?
-    var organizer: [UserModel]?
-    var cost: Int?
+    var userAttending: [UserModel]
+    var organizer: [UserModel]
+    var cost: String?
     var skillLevel: [SkillLevel]?
     var gameType: GameType
     var eventType: EventType
@@ -32,12 +32,12 @@ class EventModel: Hashable {
          eventType: EventType,
          startTime: Double,
          endTime: Double?,
-         userAttending: [UserModel]?,
-         cost: Int?,
+         userAttending: [UserModel],
+         cost: String?,
          skillLevel: [SkillLevel]?,
          gameType: GameType,
          description: String?,
-         organizer: [UserModel]?,
+         organizer: [UserModel],
          longitude: Double,
          latitude: Double) {
         

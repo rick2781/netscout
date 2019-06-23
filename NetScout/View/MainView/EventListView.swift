@@ -22,7 +22,7 @@ struct EventListView: View {
                     
                     VStack() {
                         
-                        VStack(alignment: .leading, spacing: 20) {
+                        VStack(alignment: .leading, spacing: 16) {
                             
                             HStack {
                                 
@@ -50,8 +50,8 @@ struct EventListView: View {
                                     Image(systemName: "clock")
                                     
                                     Text(event.getHourMinuteFormattedStartTime())
-                                    .fontWeight(.light)
-                                    .font(.footnote)
+                                        .fontWeight(.light)
+                                        .font(.footnote)
                                     
                                     Spacer()
                                 }
@@ -66,19 +66,41 @@ struct EventListView: View {
                                     
                                     Spacer()
                                 }
-                            }.padding(.leading, 4)
+                                }.padding(.leading, 4)
                             
+                            HStack {
+                                
+                                UserProfileView(userProfileList: event.userAttending)
+                                
+                                Spacer()
+                                
+                                Image(systemName: "tag")
+                                
+                                // Fix this with if else statement when there is a bug fix
+                                Text("$\(event.cost ?? "Free")")
+                                    .fontWeight(.light)
+                                    .font(.footnote)
+                                
+                                Spacer()
+                                
+                                
+                                        
+                                        
+                                    }
+                                }
+                            }
                             
-                            
-                            Spacer()
-                            }.padding()
+                            }.padding(8)
                         
-                        }.frame(height: 175).background(Color.white).cornerRadius(12).padding()
+                        Spacer()
+                        }.padding()
+                    
+                    }.frame(height: 175).background(Color.white).cornerRadius(12).padding(10)
                 }.shadow(radius: 10)
-                }.frame(width: UIScreen.main.bounds.width).background(Color.gray)
-            
-        }
+            }.frame(width: UIScreen.main.bounds.width).background(Color.gray)
+        
     }
+}
 }
 
 #if DEBUG
