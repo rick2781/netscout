@@ -83,25 +83,21 @@ struct EventListView: View {
                                 
                                 Spacer()
                                 
+                                SkillLevelView(skillLevelList: event.skillLevel)
                                 
-                                        
-                                        
-                                    }
-                                }
-                            }
+                                }.padding(8)
                             
-                            }.padding(8)
+                            Spacer()
+                            }.padding()
                         
-                        Spacer()
-                        }.padding()
-                    
-                    }.frame(height: 175).background(Color.white).cornerRadius(12).padding(10)
-                }.shadow(radius: 10)
-            }.frame(width: UIScreen.main.bounds.width).background(Color.gray)
-        
+                        }.frame(height: 175).background(Color.white).cornerRadius(12).padding(10)
+                    }.shadow(radius: 10)
+                }.frame(width: UIScreen.main.bounds.width).background(Color.gray)
+            
+        }
     }
 }
-}
+
 
 #if DEBUG
 struct EventListView_Preview : PreviewProvider {
